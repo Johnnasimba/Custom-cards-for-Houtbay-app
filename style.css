@@ -1,18 +1,32 @@
 .card {
     background-color: whitesmoke;
-    height: 500px;
-    max-width: 400px;
+    height: 550px;
+    max-width: 350px;
     margin: 10px;
+    overflow: hidden;
 }
 .card-img-top {
-    background-color: thistle;
+    /* background-color: thistle; */
+    height: 250px;
+    width: auto;
+   
 }
 .card-body {
-    background-color: wheat;
+    /* background-color: wheat; */
 }
 .card-title {
-    background-color: red;
+    color: rgb(0, 151, 140);
+    margin-bottom: 0px;
+    
+}
+.card-title .extra-job {
+    /* background-color: skyblue; */
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 0px;
 }
 .card-text {
-    background-color: salmon;
+    /* background-color: salmon; */
+    margin-bottom: 0px;
+    margin-bottom: 0px;
 }
