@@ -1,7 +1,8 @@
 .card {
     background-color: whitesmoke;
-    height: 550px;
-    max-width: 350px;
+    height: 480px;
+    max-width: 400px;
+    min-width: 360px;
     margin: 10px;
     overflow: hidden;
 }
@@ -13,6 +14,7 @@
 }
 .card-body {
     /* background-color: wheat; */
+    padding: 0px;
 }
 .card-title {
     color: rgb(0, 151, 140);
@@ -26,7 +28,27 @@
     margin-bottom: 0px;
 }
 .card-text {
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+.full-name {
     /* background-color: salmon; */
-    margin-bottom: 0px;
-    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+ 
+}
+.card-body span {
+    font-weight: 700;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: large;
+}
+.available-days {
+    padding: 0px;
+}
+.available-days h6{
+    padding: 0px;
+    margin: 0px;
 }
